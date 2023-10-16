@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pricings</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/5.3.45/css/materialdesignicons.css" integrity="sha256-NAxhqDvtY0l4xn+YVa6WjAcmd94NNfttjNsDmNatFVc=" crossorigin="anonymous" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="pricing.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+        <div class="card-body">
+        <div class="row">
+                <div class="col-xl-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="row align-items-center">
+                                <div class="table-responsive px-3">
+                                    <table class="table table-striped align-middle table-nowrap">
+                                        <tbody>
+                                            <tr>
+                                                <td>
+                                                    <div class="avatar-lg me-4">
+                                                        <img src="data:image/jpeg;base64,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" width="200" height="200" class="img-fluid rounded" alt="">
+                                                    </div>
+                                                </td>
+        
+                                                <td>
+                                                    <div>
+                                                        <h5 class="font-size-18"><a href="ecommerce-product-detail.html" class="text-dark">Waterproof Mobile Phone</a></h5>
+                                                        <p class="text-muted mb-0 mt-2 pt-2">
+                                                            <i class="bx bxs-star text-warning"></i>
+                                                            <i class="bx bxs-star text-warning"></i>
+                                                            <i class="bx bxs-star text-warning"></i>
+                                                            <i class="bx bxs-star text-warning"></i>
+                                                            <i class="bx bxs-star-half text-warning"></i>
+                                                        </p>
+                                                    </div>
+                                                </td>
+        
+                                                <td>
+                                                    <ul class="list-unstyled ps-0 mb-0">
+                                                        <li><p class="text-muted mb-1 text-truncate"><i class="mdi mdi-circle-medium align-middle text-primary me-1"></i> 12MP TrueDepth front camera </p></li>
+                                                        <li><p class="text-muted mb-1 text-truncate"><i class="mdi mdi-circle-medium align-middle text-primary me-1"></i> Battery life: Up to 22 hours of video playback</p></li>
+                                                        <li><p class="text-muted mb-0 text-truncate"><i class="mdi mdi-circle-medium align-middle text-primary me-1"></i> 5G and Gigabit LTE</p></li>
+                                                    </ul>
+                                                </td>
+        
+                                                <td style="width: 180px;">
+                                                    <p>Colors :</p>
+                                                    <ul class="list-inline mb-0 text-muted product-color">
+                                                        <li class="list-inline-item">
+                                                            <i class="mdi mdi-circle font-size-16 text-dark"></i>
+                                                        </li>
+                                                        <li class="list-inline-item">
+                                                            <i class="mdi mdi-circle font-size-16 text-success"></i>
+                                                        </li>
+                                                        <li class="list-inline-item">
+                                                            <i class="mdi mdi-circle font-size-16 text-primary"></i>
+                                                        </li>
+                                                    </ul>
+                                                </td>
+        
+                                                <td style="width: 220px;">
+                                                    <h3 class="mb-0 font-size-20"><span class="text-muted me-2"><del class="font-size-16 fw-normal">$500</del></span><b>$450</b></h3>
+                                                </td>
+        
+                                                <td>
+                                                    <button type="button" class="btn btn-primary waves-effect waves-light"><i class="bx bx-cart me-2 font-size-15 align-middle"></i> Add</button>
+                                                </td>
+        
+                                                <td>
+                                                    <div class="dropdown float-end">
+                                                        <a class="text-muted dropdown-toggle font-size-20" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true">
+                                                            <i class="bx bx-dots-horizontal-rounded"></i>
+                                                        </a>
+                                                        <div class="dropdown-menu dropdown-menu-end">
+                                                            <a class="dropdown-item" href="#">Edit</a>
+                                                            <a class="dropdown-item" href="#">Action</a>
+                                                            <a class="dropdown-item" href="#">Remove</a>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+        
+                                            <tr>
+                                                <td>
+                                                    <div class="avatar-lg me-4">
+                                                        <img src="data:image/jpeg;base64,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" width="200" height="200"" width="200" height="200" class="img-fluid rounded" alt="">
+                                                    </div>
+                                                </td>
+        
+                                                <td>
+                                                    <div>
+                                                        <h5 class="font-size-18"><a href="ecommerce-product-detail.html" class="text-dark">Smartphone Dual Camera</a></h5>
+                                                        <p class="text-muted mb-0 mt-2 pt-2">
+                                                            <i class="bx bxs-star text-warning"></i>
+                                                            <i class="bx bxs-star text-warning"></i>
+                                                            <i class="bx bxs-star text-warning"></i>
+                                                            <i class="bx bxs-star text-warning"></i>
+                                                        </p>
+                                                    </div>
+                                                </td>
+        
+                                                <td>
+                                                    <ul class="list-unstyled ps-0 mb-0">
+                                                        <li><p class="text-muted mb-0 text-truncate"><i class="mdi mdi-circle-medium align-middle text-primary me-1"></i> 5G and Gigabit LTE</p></li>
+                                                        <li><p class="text-muted mb-1 text-truncate"><i class="mdi mdi-circle-medium align-middle text-primary me-1"></i> 32MP TrueDepth front camera</p></li>
+                                                        <li><p class="text-muted mb-1 text-truncate"><i class="mdi mdi-circle-medium align-middle text-primary me-1"></i> Battery life: Up to 22 hours of video playback</p></li>
+                                                    </ul>
+                                                </td>
+        
+                                                <td style="width: 180px;">
+                                                    <p>Colors :</p>
+                                                    <ul class="list-inline mb-0 text-muted product-color">
+                                                        <li class="list-inline-item">
+                                                            <i class="mdi mdi-circle font-size-16 text-primary"></i>
+                                                        </li>
+                                                        <li class="list-inline-item">
+                                                            <i class="mdi mdi-circle font-size-16 text-danger"></i>
+                                                        </li>
+                                                        <li class="list-inline-item">
+                                                            <i class="mdi mdi-circle font-size-16 text-warning"></i>
+                                                        </li>
+                                                    </ul>
+                                                </td>
+        
+                                                <td style="width: 220px;">
+                                                    <h3 class="mb-0 font-size-20"><span class="text-muted me-2"><del class="font-size-16 fw-normal">$280</del></span><b>$240</b></h3>
+                                                </td>
+        
+                                                <td>
+                                                    <button type="button" class="btn btn-primary waves-effect waves-light"><i class="bx bx-cart me-2 font-size-15 align-middle"></i> Add</button>
+                                                </td>
+        
+                                                <td>
+                                                    <div class="dropdown float-end">
+                                                        <a class="text-muted dropdown-toggle font-size-20" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true">
+                                                            <i class="bx bx-dots-horizontal-rounded"></i>
+                                                        </a>
+                                                        <div class="dropdown-menu dropdown-menu-end">
+                                                            <a class="dropdown-item" href="#">Edit</a>
+                                                            <a class="dropdown-item" href="#">Action</a>
+                                                            <a class="dropdown-item" href="#">Remove</a>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+        
+                                            <tr>
+                                                <td>
+                                                    <div class="avatar-lg me-4">
+                                                        <img src="data:image/jpeg;base64,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" width="200" height="200" class="img-fluid rounded" alt="">
+                                                    </div>
+                                                </td>
+        
+                                                <td>
+                                                    <div>
+                                                        <h5 class="font-size-18"><a href="ecommerce-product-detail.html" class="text-dark">Black Colour Smartphone</a></h5>
+                                                        <p class="text-muted mb-0 mt-2 pt-2">
+                                                            <i class="bx bxs-star text-warning"></i>
+                                                            <i class="bx bxs-star text-warning"></i>
+                                                            <i class="bx bxs-star text-warning"></i>
+                                                        </p>
+                                                    </div>
+                                                </td>
+        
+                                                <td>
+                                                    <ul class="list-unstyled ps-0 mb-0">
+                                                        <li><p class="text-muted mb-1 text-truncate"><i class="mdi mdi-circle-medium align-middle text-primary me-1"></i> 5G and Gigabit LTE </p></li>
+                                                        <li><p class="text-muted mb-1 text-truncate"><i class="mdi mdi-circle-medium align-middle text-primary me-1"></i> LiDAR Scanner for Night mode</p></li>
+                                                        <li><p class="text-muted mb-0 text-truncate"><i class="mdi mdi-circle-medium align-middle text-primary me-1"></i> Face ID for secure authentication</p></li>
+                                                       </ul>
+                                                </td>
+        
+                                                <td style="width: 180px;">
+                                                    <p>Colors :</p>
+                                                    <ul class="list-inline mb-0 text-muted product-color">
+                                                        <li class="list-inline-item">
+                                                            <i class="mdi mdi-circle font-size-16 text-info"></i>
+                                                        </li>
+                                                        <li class="list-inline-item">
+                                                            <i class="mdi mdi-circle font-size-16 text-danger"></i>
+                                                        </li>
+                                                        <li class="list-inline-item">
+                                                            <i class="mdi mdi-circle font-size-16 text-dark"></i>
+                                                        </li>
+                                                    </ul>
+                                                </td>
+        
+                                                <td style="width: 220px;">
+                                                    <h3 class="mb-0 font-size-20"><span class="text-muted me-2"><del class="font-size-16 fw-normal">$500</del></span><b>$450</b></h3>
+                                                </td>
+        
+                                                <td>
+                                                    <button type="button" class="btn btn-primary waves-effect waves-light"><i class="bx bx-cart me-2 font-size-15 align-middle"></i> Add</button>
+                                                </td>
+        
+                                                <td>
+                                                    <div class="dropdown float-end">
+                                                        <a class="text-muted dropdown-toggle font-size-20" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true">
+                                                            <i class="bx bx-dots-horizontal-rounded"></i>
+                                                        </a>
+                                                        <div class="dropdown-menu dropdown-menu-end">
+                                                            <a class="dropdown-item" href="#">Edit</a>
+                                                            <a class="dropdown-item" href="#">Action</a>
+                                                            <a class="dropdown-item" href="#">Remove</a>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+        
+                                            <tr>
+                                                <td>
+                                                    <div class="avatar-lg me-4">
+                                                        <img src="data:image/jpeg;base64,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" width="200" height="200" class="img-fluid rounded" alt="">
+                                                    </div>
+                                                </td>
+        
+                                                <td>
+                                                    <div>
+                                                        <h5 class="font-size-18"><a href="ecommerce-product-detail.html" class="text-dark">Latest Smartphone Under 2000</a></h5>
+                                                        <p class="text-muted mb-0 mt-2 pt-2">
+                                                            <i class="bx bxs-star text-warning"></i>
+                                                            <i class="bx bxs-star text-warning"></i>
+                                                            <i class="bx bxs-star text-warning"></i>
+                                                            <i class="bx bxs-star-half text-warning"></i>
+                                                        </p>
+                                                    </div>
+                                                </td>
+        
+                                                <td>
+                                                    <ul class="list-unstyled ps-0 mb-0">
+                                                        <li><p class="text-muted mb-1 text-truncate"><i class="mdi mdi-circle-medium align-middle text-primary me-1"></i> 20MP TrueDepth front camera </p></li>
+                                                        <li><p class="text-muted mb-1 text-truncate"><i class="mdi mdi-circle-medium align-middle text-primary me-1"></i> LiDAR Scanner for Night mode</p></li>
+                                                        <li><p class="text-muted mb-0 text-truncate"><i class="mdi mdi-circle-medium align-middle text-primary me-1"></i> Compatible with MagSafe accessories</p></li>
+                                                       </ul>
+                                                </td>
+        
+                                                <td style="width: 180px;">
+                                                    <p>Colors :</p>
+                                                    <ul class="list-inline mb-0 text-muted product-color">
+                                                        <li class="list-inline-item">
+                                                            <i class="mdi mdi-circle font-size-16 text-primary"></i>
+                                                        </li>
+                                                        <li class="list-inline-item">
+                                                            <i class="mdi mdi-circle font-size-16 text-success"></i>
+                                                        </li>
+                                                        <li class="list-inline-item">
+                                                            <i class="mdi mdi-circle font-size-16 text-warning"></i>
+                                                        </li>
+                                                    </ul>
+                                                </td>
+        
+                                                <td style="width: 220px;">
+                                                    <h3 class="mb-0 font-size-20"><span class="text-muted me-2"><del class="font-size-16 fw-normal">$420</del></span><b>$380</b></h3>
+                                                </td>
+        
+                                                <td>
+                                                    <button type="button" class="btn btn-primary waves-effect waves-light"><i class="bx bx-cart me-2 font-size-15 align-middle"></i> Add</button>
+                                                </td>
+        
+                                                <td>
+                                                    <div class="dropdown float-end">
+                                                        <a class="text-muted dropdown-toggle font-size-20" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true">
+                                                            <i class="bx bx-dots-horizontal-rounded"></i>
+                                                        </a>
+                                                        <div class="dropdown-menu dropdown-menu-end">
+                                                            <a class="dropdown-item" href="#">Edit</a>
+                                                            <a class="dropdown-item" href="#">Action</a>
+                                                            <a class="dropdown-item" href="#">Remove</a>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+        
+                                            <tr>
+                                                <td>
+                                                    <div class="avatar-lg me-4">
+                                                        <img src="data:image/jpeg;base64,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" width="200" height="200" class="img-fluid rounded" alt="">
+                                                    </div>
+                                                </td>
+        
+                                                <td>
+                                                    <div>
+                                                        <h5 class="font-size-18"><a href="ecommerce-product-detail.html" class="text-dark">New Phone Max Pro</a></h5>
+                                                        <p class="text-muted mb-0 mt-2 pt-2">
+                                                            <i class="bx bxs-star text-warning"></i>
+                                                            <i class="bx bxs-star text-warning"></i>
+                                                            <i class="bx bxs-star text-warning"></i>
+                                                            <i class="bx bxs-star text-warning"></i>
+                                                            <i class="bx bxs-star text-warning"></i>
+                                                        </p>
+                                                    </div>
+                                                </td>
+        
+                                                <td>
+                                                    <ul class="list-unstyled ps-0 mb-0">
+                                                        <li><p class="text-muted mb-1 text-truncate"><i class="mdi mdi-circle-medium align-middle text-primary me-1"></i> 2MagSafe and Qi wireless charging </p></li>
+                                                        <li><p class="text-muted mb-1 text-truncate"><i class="mdi mdi-circle-medium align-middle text-primary me-1"></i> A15 Bionic chip with new 6-core CPU</p></li>
+                                                        <li><p class="text-muted mb-0 text-truncate"><i class="mdi mdi-circle-medium align-middle text-primary me-1"></i> Compatible with MagSafe accessories</p></li>
+                                                       </ul>
+                                                </td>
+        
+                                                <td style="width: 180px;">
+                                                    <p>Colors :</p>
+                                                    <ul class="list-inline mb-0 text-muted product-color">
+                                                        <li class="list-inline-item">
+                                                            <i class="mdi mdi-circle font-size-16 text-dark"></i>
+                                                        </li>
+                                                        <li class="list-inline-item">
+                                                            <i class="mdi mdi-circle font-size-16 text-danger"></i>
+                                                        </li>
+                                                        <li class="list-inline-item">
+                                                            <i class="mdi mdi-circle font-size-16 text-primary"></i>
+                                                        </li>
+                                                    </ul>
+                                                </td>
+        
+                                                <td style="width: 220px;">
+                                                    <h3 class="mb-0 font-size-20"><span class="text-muted me-2"><del class="font-size-16 fw-normal">$470</del></span><b>$390</b></h3>
+                                                </td>
+        
+                                                <td>
+                                                    <button type="button" class="btn btn-primary waves-effect waves-light"><i class="bx bx-cart me-2 font-size-15 align-middle"></i> Add</button>
+                                                </td>
+        
+                                                <td>
+                                                    <div class="dropdown float-end">
+                                                        <a class="text-muted dropdown-toggle font-size-20" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true">
+                                                            <i class="bx bx-dots-horizontal-rounded"></i>
+                                                        </a>
+                                                        <div class="dropdown-menu dropdown-menu-end">
+                                                            <a class="dropdown-item" href="#">Edit</a>
+                                                            <a class="dropdown-item" href="#">Action</a>
+                                                            <a class="dropdown-item" href="#">Remove</a>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+        
+                                            <tr>
+                                                <td>
+                                                    <div class="avatar-lg me-4">
+                                                        <img src="data:image/jpeg;base64,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" width="200" height="200" class="img-fluid rounded" alt="">
+                                                    </div>
+                                                </td>
+        
+                                                <td>
+                                                    <div>
+                                                        <h5 class="font-size-18"><a href="ecommerce-product-detail.html" class="text-dark">Smart Phone Pro +256</a></h5>
+                                                        <p class="text-muted mb-0 mt-2 pt-2">
+                                                            <i class="bx bxs-star text-warning"></i>
+                                                            <i class="bx bxs-star text-warning"></i>
+                                                            <i class="bx bxs-star-half text-warning"></i>
+                                                        </p>
+                                                    </div>
+                                                </td>
+        
+                                                <td>
+                                                    <ul class="list-unstyled ps-0 mb-0">
+                                                        <li><p class="text-muted mb-1 text-truncate"><i class="mdi mdi-circle-medium align-middle text-primary me-1"></i> 13.7 cm (5.4-inch) Super Retina HDR and True Tone</p></li>
+                                                        <li><p class="text-muted mb-1 text-truncate"><i class="mdi mdi-circle-medium align-middle text-primary me-1"></i> Battery life: Up to 22 hours of video playback</p></li>
+                                                        <li><p class="text-muted mb-0 text-truncate"><i class="mdi mdi-circle-medium align-middle text-primary me-1"></i> Compatible with MagSafe accessories</p></li>
+                                                       </ul>
+                                                </td>
+        
+                                                <td style="width: 180px;">
+                                                    <p>Colors :</p>
+                                                    <ul class="list-inline mb-0 text-muted product-color">
+                                                        <li class="list-inline-item">
+                                                            <i class="mdi mdi-circle font-size-16 text-primary"></i>
+                                                        </li>
+                                                        <li class="list-inline-item">
+                                                            <i class="mdi mdi-circle font-size-16 text-warning"></i>
+                                                        </li>
+                                                        <li class="list-inline-item">
+                                                            <i class="mdi mdi-circle font-size-16 text-info"></i>
+                                                        </li>
+                                                    </ul>
+                                                </td>
+        
+                                                <td style="width: 220px;">
+                                                    <h3 class="mb-0 font-size-20"><span class="text-muted me-2"><del class="font-size-16 fw-normal">$470</del></span><b>$320</b></h3>
+                                                </td>
+        
+                                                <td>
+                                                    <button type="button" class="btn btn-primary waves-effect waves-light"><i class="bx bx-cart me-2 font-size-15 align-middle"></i> Add</button>
+                                                </td>
+        
+                                                <td>
+                                                    <div class="dropdown float-end">
+                                                        <a class="text-muted dropdown-toggle font-size-20" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true">
+                                                            <i class="bx bx-dots-horizontal-rounded"></i>
+                                                        </a>
+                                                        <div class="dropdown-menu dropdown-menu-end">
+                                                            <a class="dropdown-item" href="#">Edit</a>
+                                                            <a class="dropdown-item" href="#">Action</a>
+                                                            <a class="dropdown-item" href="#">Remove</a>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+        
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+            </div>
+            </div>
+</body>
+</html>
